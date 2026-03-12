@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Root Layout -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="24dp"
+    android:background="#EDE7F6">
+
+    <!-- Profile Image -->
+    <ImageView
+        android:id="@+id/profileImage"
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        android:src="@drawable/profile"
+        android:layout_marginBottom="20dp"
+        android:scaleType="centerCrop"/>
+
+    <!-- Name -->
+    <TextView
+        android:id="@+id/nameText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/name"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        android:textColor="#4A148C"/>
+
+    <!-- Roll Number -->
+    <TextView
+        android:id="@+id/rollText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/roll_number"
+        android:textSize="18sp"
+        android:textColor="#311B92"/>
+
+    <!-- Course -->
+    <TextView
+        android:id="@+id/courseText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/course"
+        android:textSize="18sp"
+        android:textColor="#311B92"/>
+
+    <!-- Email -->
+    <TextView
+        android:id="@+id/emailText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/email"
+        android:textSize="18sp"
+        android:textColor="#311B92"
+        android:layout_marginBottom="20dp"/>
+
+    <!-- Show Details Button -->
+    <Button
+        android:id="@+id/detailsButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/show_details"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#7E57C2"/>
+
+</LinearLayout>

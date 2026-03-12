@@ -1,0 +1,15 @@
+<resources>
+
+    <string name="app_name">StudentProfile</string>
+
+    <string name="name">Yakshitha Senapathi</string>
+
+    <string name="roll_number">Roll Number: A23126552239</string>
+
+    <string name="course">Course: B.Tech CSE (AI &amp; ML)</string>
+
+    <string name="email">Email: yakshithasenapathi02@gmail.com</string>
+
+    <string name="show_details">Show Details</string>
+
+</resources>
